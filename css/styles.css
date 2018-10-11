@@ -1,6 +1,33 @@
-h1 {color:blue; font-size:12px;}
-section {color: black;font-size:16px;text-align:left;}
-nav {color: purple; font-size:14px;
-text-align: left;}
-footer {color:black; font-size:10px; text-align:bottom center;}
-form {text-align: center; color:purple; }
+h1 {
+	color:#03191E; font-size:16px;
+}
+section {
+	color: black;font-size:16px;text-align:left;
+}
+nav {
+	background-color: purple; font-size:14px;
+	text-align: left;
+	padding:15px;
+}
+footer {
+	color:#941C2F; font-size:10px; text-align:bottom center;}
+form {text-align: center; color:purple; 
+}
+img {
+		max-width: 100% !important;
+	}
+	body {background-color:maroon;}
+@media (max-width:480px); {
+	header h1 {
+		font-size: 12px;
+	}
+	footer {
+		background-color: #000;
+		color:maroon;
+	}
+	nav {
+		color:red;
+	}
+	
+
+}
