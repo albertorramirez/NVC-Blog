@@ -17,6 +17,7 @@ img {
 		max-width: 100% !important;
 	}
 	body {background-color:maroon;}
+	iframe {background-color: lavender;}
 @media (max-width:480px); {
 	header h1 {
 		font-size: 12px;
